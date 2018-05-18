@@ -1,5 +1,5 @@
 # FCND - Backyard Flyer Project
-This project has three required criteria for an event driven Phython application. 
+This project has three required criteria for an event driven application. 
 
 1. Completion of the classes arming_transition(), takeoff_transition(), waypoint_transition(), landing_transition(), and disarming_transition() where each of the command methods are filled in with an appropriate command(s) to the vehicle and transitions to the respective state in the state machine.
 
