@@ -30,14 +30,16 @@ class BackyardFlyer(Drone):
         # initial state
         self.flight_state = States.MANUAL
 
-        # TODO: Register all your callbacks here
+        # Register all your callbacks here
         self.register_callback(MsgID.LOCAL_POSITION, self.local_position_callback)
         self.register_callback(MsgID.LOCAL_VELOCITY, self.velocity_callback)
         self.register_callback(MsgID.STATE, self.state_callback)
 
     def local_position_callback(self):
-        """
-        TODO: Implement this method
+         
+        
+        
+        
 
         This triggers when `MsgID.LOCAL_POSITION` is received and self.local_position contains new data
         """
@@ -45,7 +47,8 @@ class BackyardFlyer(Drone):
 
     def velocity_callback(self):
         """
-        TODO: Implement this method
+        
+        
 
         This triggers when `MsgID.LOCAL_VELOCITY` is received and self.local_velocity contains new data
         """
@@ -53,7 +56,7 @@ class BackyardFlyer(Drone):
 
     def state_callback(self):
         """
-        TODO: Implement this method
+        
 
         This triggers when `MsgID.STATE` is received and self.armed and self.guided contain new data
         """
